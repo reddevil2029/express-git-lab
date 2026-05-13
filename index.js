@@ -10,6 +10,11 @@ app.get('/about', (req, res) => {
     res.send('About Us: This is a team collaboration lab.');
 });
 
+app.get('/contact', (req, res) => {
+    res.send('Contact: This is a team fork lab.');
+});
+
+
 app.listen(port, () => {
     console.log(`App listening at http://localhost:${port}`);
 });

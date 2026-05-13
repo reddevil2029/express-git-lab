@@ -4,7 +4,6 @@ const port = 3000;
 
 app.get('/', (req, res) => {
     res.send('Hello everyone! - from B');
-    try
 });
 
 app.get('/about', (req, res) => {
